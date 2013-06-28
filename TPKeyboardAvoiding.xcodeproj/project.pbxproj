@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8A2CE73D177DA33900F1E3D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2CE73C177DA33900F1E3D6 /* Foundation.framework */; };
-		8A2CE742177DA33900F1E3D6 /* TPKeyboardAvoiding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A2CE741177DA33900F1E3D6 /* TPKeyboardAvoiding.h */; };
-		8A2CE744177DA33900F1E3D6 /* TPKeyboardAvoiding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CE743177DA33900F1E3D6 /* TPKeyboardAvoiding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +17,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				8A2CE742177DA33900F1E3D6 /* TPKeyboardAvoiding.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,8 +26,6 @@
 		8A2CE739177DA33900F1E3D6 /* libTPKeyboardAvoiding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTPKeyboardAvoiding.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2CE73C177DA33900F1E3D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A2CE740177DA33900F1E3D6 /* TPKeyboardAvoiding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-Prefix.pch"; sourceTree = "<group>"; };
-		8A2CE741177DA33900F1E3D6 /* TPKeyboardAvoiding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoiding.h; sourceTree = "<group>"; };
-		8A2CE743177DA33900F1E3D6 /* TPKeyboardAvoiding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoiding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +68,6 @@
 		8A2CE73E177DA33900F1E3D6 /* TPKeyboardAvoiding */ = {
 			isa = PBXGroup;
 			children = (
-				8A2CE741177DA33900F1E3D6 /* TPKeyboardAvoiding.h */,
-				8A2CE743177DA33900F1E3D6 /* TPKeyboardAvoiding.m */,
 				8A2CE73F177DA33900F1E3D6 /* Supporting Files */,
 			);
 			path = TPKeyboardAvoiding;
@@ -139,7 +132,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A2CE744177DA33900F1E3D6 /* TPKeyboardAvoiding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +162,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -193,7 +185,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
