@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8A2CE73D177DA33900F1E3D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2CE73C177DA33900F1E3D6 /* Foundation.framework */; };
+		8A2CE74E177DA3DD00F1E3D6 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CE74B177DA3DD00F1E3D6 /* TPKeyboardAvoidingScrollView.m */; };
+		8A2CE74F177DA3DD00F1E3D6 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CE74D177DA3DD00F1E3D6 /* TPKeyboardAvoidingTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,11 @@
 		8A2CE739177DA33900F1E3D6 /* libTPKeyboardAvoiding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTPKeyboardAvoiding.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2CE73C177DA33900F1E3D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A2CE740177DA33900F1E3D6 /* TPKeyboardAvoiding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-Prefix.pch"; sourceTree = "<group>"; };
+		8A2CE74A177DA3DD00F1E3D6 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = "TPKeyboardAvoiding Source/TPKeyboardAvoidingScrollView.h"; sourceTree = "<group>"; };
+		8A2CE74B177DA3DD00F1E3D6 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = "TPKeyboardAvoiding Source/TPKeyboardAvoidingScrollView.m"; sourceTree = "<group>"; };
+		8A2CE74C177DA3DD00F1E3D6 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = "TPKeyboardAvoiding Source/TPKeyboardAvoidingTableView.h"; sourceTree = "<group>"; };
+		8A2CE74D177DA3DD00F1E3D6 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = "TPKeyboardAvoiding Source/TPKeyboardAvoidingTableView.m"; sourceTree = "<group>"; };
+		8A2CE752177DA3FD00F1E3D6 /* TPKeyboardAvoiding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoiding.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +75,8 @@
 		8A2CE73E177DA33900F1E3D6 /* TPKeyboardAvoiding */ = {
 			isa = PBXGroup;
 			children = (
+				8A2CE751177DA3EB00F1E3D6 /* Header */,
+				8A2CE750177DA3E000F1E3D6 /* Source */,
 				8A2CE73F177DA33900F1E3D6 /* Supporting Files */,
 			);
 			path = TPKeyboardAvoiding;
@@ -79,6 +88,25 @@
 				8A2CE740177DA33900F1E3D6 /* TPKeyboardAvoiding-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A2CE750177DA3E000F1E3D6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8A2CE74A177DA3DD00F1E3D6 /* TPKeyboardAvoidingScrollView.h */,
+				8A2CE74B177DA3DD00F1E3D6 /* TPKeyboardAvoidingScrollView.m */,
+				8A2CE74C177DA3DD00F1E3D6 /* TPKeyboardAvoidingTableView.h */,
+				8A2CE74D177DA3DD00F1E3D6 /* TPKeyboardAvoidingTableView.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		8A2CE751177DA3EB00F1E3D6 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				8A2CE752177DA3FD00F1E3D6 /* TPKeyboardAvoiding.h */,
+			);
+			name = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2CE74E177DA3DD00F1E3D6 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				8A2CE74F177DA3DD00F1E3D6 /* TPKeyboardAvoidingTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
